@@ -1,0 +1,26 @@
+#top_bar{
+    color: red;
+    text-align:center;
+    font-size: 2rem;
+    
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 50%;
+
+    width:25%;
+    
+    margin:auto;
+}
+
+#project_heading{
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+#projects{
+    border-style:solid;
+    border-color: black;
+    border-width: 3px;
+}
