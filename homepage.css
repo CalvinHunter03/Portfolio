@@ -1,16 +1,38 @@
 #top_bar{
-    color: red;
+    color: black;
+    background-color: #CF9421;
     text-align:center;
     font-size: 2rem;
     
     border-color: black;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 50%;
+    
+    border-radius: 35%;
+
+    padding-top: 3px;
+    padding-bottom: 3px;
 
     width:25%;
     
     margin:auto;
+}
+
+#intro{
+    background-color:#CF9421;
+    position: absolute;
+    left: 10px;
+    width: 25%;
+
+    border-style:solid;
+    border-color: black;
+    border-width: 3px;
+
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#intro_title{
+    text-align: center;
 }
 
 #project_heading{
@@ -23,4 +45,16 @@
     border-style:solid;
     border-color: black;
     border-width: 3px;
+
+    background-color: #CF9421;
+
+    position: absolute;
+    right: 10px;
+    width: 65%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+body {
+    background-color: #232e3f;
 }
