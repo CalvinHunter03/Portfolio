@@ -26,11 +26,18 @@ intro.appendChild(introTitle);
 intro.appendChild(introP);
 
 //PROJECTS
+
+//SOUPER HERO
 let souperHero = document.getElementById("souper_hero");
 
 let souperTitle = document.createElement("h1");
 souperTitle.id = "souper_title";
 souperTitle.innerHTML = "<u>Souper Hero</u>";
+souperTitle.classList.add('project_titles');
+
+let souperTrailer = document.createElement("iframe");
+
+
 
 let souperDescOne = document.createElement("li");
 souperDescOne.innerHTML = "Level Design";
@@ -47,4 +54,14 @@ souperDescThree.classList.add('souper_desc');
 let souperList = [souperTitle, souperDescOne, souperDescTwo, souperDescThree];
 
 addList(souperHero, souperList);
+
+//MIND SYNC
+let mindSync = document.getElementById("mind_sync");
+
+let mindTitle = document.createElement("h1");
+mindTitle.innerHTML = "Mind Sync";
+
+let mindList = [mindTitle];
+addList(mindSync, mindList);
+
 
