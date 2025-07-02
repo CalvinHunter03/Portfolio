@@ -1,10 +1,15 @@
+body {
+    background-color: #232e3f;
+}
+
+
 #top_bar{
     color: black;
     background-color: #CF9421;
     text-align:center;
     font-size: 2rem;
     
-    border-color: black;
+    border-color: #172030;
     
     border-radius: 35%;
 
@@ -17,15 +22,14 @@
 }
 
 #intro{
-    background-color:#CF9421;
+    background-color:#D87818;
     position: absolute;
     left: 10px;
     width: 25%;
 
     border-style:solid;
-    border-color: black;
     border-width: 3px;
-
+    border-color: #172030;
 
     padding-left: 15px;
     padding-right: 15px;
@@ -33,28 +37,48 @@
 
 #intro_title{
     text-align: center;
+    color: #DAD5C6;
 }
 
 #project_heading{
     font-size: 3rem;
     text-align: center;
+    color: #DAD5C6;
 
 }
 
 #projects{
     border-style:solid;
-    border-color: black;
+    border-color: #172030;
     border-width: 3px;
 
-    background-color: #CF9421;
+    background-color: #AD330A;
 
     position: absolute;
     right: 10px;
     width: 65%;
     padding-right: 15px;
     padding-left: 15px;
+
+    padding-bottom: 100px;
 }
 
-body {
-    background-color: #232e3f;
+#souper_title{
+    color: #F9DD80;
+}
+
+#souper_hero{
+    border-style:solid;
+    border-width: 3px;
+    border-color: black;
+
+    width: 50%;
+}
+
+.souper_desc{
+    color: white;
+    list-style-type:square;
+    margin-left: 50px;
+    
+
 }
