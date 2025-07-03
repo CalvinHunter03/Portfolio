@@ -15,6 +15,8 @@ body {
 
     padding-top: 3px;
     padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
 
     width:25%;
     
@@ -45,7 +47,7 @@ body {
 .second_grid > div {
     padding-bottom: 15px;
 
-    background-color: #731c07;
+    background-color: #88240a;
 }
 
 #intro{
@@ -68,15 +70,15 @@ body {
     */
 }
 
-#intro_title{
+.intro_title{
     text-align: center;
-    color: #DAD5C6;
+    color: white;
 }
 
 #project_heading{
     font-size: 3rem;
     text-align: center;
-    color: #DAD5C6;
+    color: white;
 
 }
 
@@ -110,13 +112,10 @@ body {
 }
 
 .proj_desc{
-    color: white;
+    color: #e5e0d0;
     list-style-type:square;
-    margin-left: 80px;
+    margin-left: 10%;
     padding-top: 10px;
-
-
-    
 }
 
 .project_titles{
@@ -141,4 +140,41 @@ body {
     height: auto;
     display: block;
     border: black solid 3px;
+}
+
+.third_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+
+    padding-left: 5%;
+    padding-right: 15px;
+
+}
+
+.third_grid > div{
+    border: black solid 3px;
+}
+
+.real_desc{
+    color: #e5e0d0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.bullet_div{
+    padding-bottom: 15px;
+}
+
+.intro_text{
+    text-align: center;
+
+
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+    color: #DAD5C6;
+    font-size: 175%;
 }
