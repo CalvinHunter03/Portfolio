@@ -1,5 +1,4 @@
 let top_bar = document.getElementById("top_bar");
-let intro = document.getElementById("intro");
 let projects = document.getElementById("projects");
 
 function addList(appender, theList){
@@ -11,11 +10,19 @@ function addList(appender, theList){
 
 
 //TOP BAR
+/*
 let nameHeading = document.createElement("h1");
 nameHeading.innerHTML = "Calvin Hunter";
 top_bar.appendChild(nameHeading);
+*/
 
 // INTRO
+let intro = document.getElementById("intro");
+
+let introTitle = document.createElement("h1");
+introTitle.innerHTML = "<u>About Me</u>";
+introTitle.classList.add('intro_title');
+/*
 let introTitle = document.createElement("h1");
 introTitle.innerHTML = "<u>About Me</u>";
 introTitle.classList.add('intro_title');
@@ -32,9 +39,9 @@ contactTitle.classList.add('intro_title');
 let contactP = document.createElement('p');
 contactP.innerHTML = 'Feel free to contact me, I will respond as soon as possible. <br><br>calvinhunter03@gmail.com';
 contactP.classList.add('intro_text');
+*/
 
-
-addList(intro, [introTitle, introP, ibr, contactTitle, contactP]);
+addList(intro, [introTitle]);
 
 
 //PROJECTS

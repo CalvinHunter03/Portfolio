@@ -1,8 +1,13 @@
-body {
-    background-color: #232e3f;
+@font-face {
+    font-family: goldenAge;
+    src: url(/Fonts/GoldenAgeShad.ttf);
 }
 
+body {
+    background-color: #ffffff;
+}
 
+/*
 #top_bar{
     color: black;
     background-color: #CF9421;
@@ -23,6 +28,7 @@ body {
     margin:auto;
     margin-top: 20px;
 }
+    */
 
 .first_grid{
     display: grid;  
@@ -51,7 +57,7 @@ body {
 }
 
 #intro{
-    background-color:#D87818;
+    background-color:#ffffff;
 
     /*
     position: absolute;
@@ -61,18 +67,20 @@ body {
     */
 
     border-style:solid;
-    border-width: 3px;
-    border-color: #172030;
+    border-width: 1.2px;
+    border-color: #6a80a794;
 
     /*
     padding-left: 15px;
     padding-right: 15px;
     */
+
+    font-family: goldenAge;
 }
 
 .intro_title{
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 #project_heading{
