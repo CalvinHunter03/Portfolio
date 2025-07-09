@@ -1,5 +1,5 @@
-let top_bar = document.getElementById("top_bar");
-let projects = document.getElementById("projects");
+
+let games = document.getElementById("games");
 
 function addList(appender, theList){
 
@@ -8,20 +8,28 @@ function addList(appender, theList){
     }
 }
 
+// LEFT SIDE BAR
+let leftSideBar = document.getElementById("left_side_bar");
 
-//TOP BAR
-/*
-let nameHeading = document.createElement("h1");
-nameHeading.innerHTML = "Calvin Hunter";
-top_bar.appendChild(nameHeading);
-*/
+let homeButton = document.createElement("button");
+homeButton.innerHTML = "Home";
+homeButton.classList.add('left_sidebar_button');
+homeButton.type = 'button';
 
-// INTRO
-let intro = document.getElementById("intro");
+let gamesButton = document.createElement("button");
+gamesButton.type = 'button';
+gamesButton.innerHTML = "Games";
+gamesButton.classList.add('left_sidebar_button');
 
-let introTitle = document.createElement("h1");
-introTitle.innerHTML = "<u>About Me</u>";
-introTitle.classList.add('intro_title');
+let projectButton = document.createElement("button");
+projectButton.type = 'button';
+projectButton.innerHTML = "Projects";
+projectButton.classList.add('left_sidebar_button');
+
+let aboutMeButton = document.createElement("button");
+aboutMeButton.type = 'button';
+aboutMeButton.innerHTML = "About Me";
+aboutMeButton.classList.add('left_sidebar_button');
 /*
 let introTitle = document.createElement("h1");
 introTitle.innerHTML = "<u>About Me</u>";
@@ -41,7 +49,7 @@ contactP.innerHTML = 'Feel free to contact me, I will respond as soon as possibl
 contactP.classList.add('intro_text');
 */
 
-addList(intro, [introTitle]);
+addList(leftSideBar, [homeButton, gamesButton, projectButton, aboutMeButton]);
 
 
 //PROJECTS
@@ -52,11 +60,11 @@ let souperHero = document.getElementById("souper_hero");
 let souperTitle = document.createElement("h1");
 souperTitle.id = "souper_title";
 souperTitle.innerHTML = "<u>Souper Hero</u>";
-souperTitle.classList.add('project_titles');
+souperTitle.classList.add('games_titles');
 
 let souperTrailer = document.createElement("iframe");
 souperTrailer.src = 'https://www.youtube.com/embed/eS0_EcyCiJI';
-souperTrailer.classList.add('proj_vid');
+souperTrailer.classList.add('game_vid');
 let souperTrailerBr = document.createElement('br');
 
 let souperBulletDiv = document.createElement('div');
@@ -75,15 +83,15 @@ souperDescReal.classList.add('real_desc');
 
 let souperDescOne = document.createElement("li");
 souperDescOne.innerHTML = "Level Design";
-souperDescOne.classList.add('proj_desc');
+souperDescOne.classList.add('game_desc');
 
 let souperDescTwo = document.createElement("li");
 souperDescTwo.innerHTML = "Combat functionality";
-souperDescTwo.classList.add('proj_desc');
+souperDescTwo.classList.add('game_desc');
 
 let souperDescThree = document.createElement("li");
 souperDescThree.innerHTML = "Fixing combat bugs";
-souperDescThree.classList.add('proj_desc');
+souperDescThree.classList.add('game_desc');
 
 addList(souperBulletDiv, [souperDescOne, souperDescTwo, souperDescThree]);
 addList(souperDescDiv, [souperDescReal]);
@@ -99,11 +107,11 @@ let mindSync = document.getElementById("mind_sync");
 
 let mindTitle = document.createElement("h1");
 mindTitle.innerHTML = "<u>Mind Sync</u>";
-mindTitle.classList.add('project_titles');
+mindTitle.classList.add('games_titles');
 
 let mindTrailer = document.createElement("iframe");
 mindTrailer.src = 'https://www.youtube.com/embed/mDRU0zrc72Q';
-mindTrailer.classList.add('proj_vid');
+mindTrailer.classList.add('game_vid');
 let mindTrailerBr = document.createElement('br');
 
 let mindBulletDiv = document.createElement('div');
@@ -121,15 +129,15 @@ mindDescReal.classList.add('real_desc');
 
 let mindDescOne = document.createElement("li");
 mindDescOne.innerHTML = "Puzzle creation";
-mindDescOne.classList.add('proj_desc');
+mindDescOne.classList.add('game_desc');
 
 let mindDescTwo = document.createElement('li');
 mindDescTwo.innerHTML = "Voice acting";
-mindDescTwo.classList.add('proj_desc');
+mindDescTwo.classList.add('game_desc');
 
 let mindDescThree = document.createElement('li');
 mindDescThree.innerHTML = "Documentation";
-mindDescThree.classList.add('proj_desc');
+mindDescThree.classList.add('game_desc');
 
 addList(mindBulletDiv, [mindDescOne, mindDescTwo, mindDescThree]);
 addList(mindDescDiv, [mindDescReal]);
@@ -145,11 +153,11 @@ let stationary = document.getElementById("stationary");
 
 let statTitle = document.createElement("h1");
 statTitle.innerHTML = "<u>Stationary</u>";
-statTitle.classList.add('project_titles');
+statTitle.classList.add('games_titles');
 
 let statTrailer = document.createElement('iframe');
 statTrailer.src = 'https://www.youtube.com/embed/Mn758oQVDcs';
-statTrailer.classList.add('proj_vid');
+statTrailer.classList.add('game_vid');
 let statTrailerBr = document.createElement('br');
 
 let statBulletDiv = document.createElement('div');
@@ -167,15 +175,15 @@ statDescReal.classList.add('real_desc');
 
 let statBullOne = document.createElement('li');
 statBullOne.innerHTML = "Created Art";
-statBullOne.classList.add('proj_desc');
+statBullOne.classList.add('game_desc');
 
 let statBullTwo = document.createElement('li');
 statBullTwo.innerHTML = "Sound Design";
-statBullTwo.classList.add('proj_desc');
+statBullTwo.classList.add('game_desc');
 
 let statBullThree = document.createElement('li');
 statBullThree.innerHTML = "Documentation";
-statBullThree.classList.add('proj_desc');
+statBullThree.classList.add('game_desc');
 
 addList(statBulletDiv, [statBullOne, statBullTwo, statBullThree]);
 addList(statDescDiv, [statDescReal]);
