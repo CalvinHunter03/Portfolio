@@ -52,6 +52,24 @@ contactP.classList.add('intro_text');
 addList(leftSideBar, [homeButton, gamesButton, projectButton, aboutMeButton]);
 
 
+//HOME PAGE
+let homePage = document.getElementById('home');
+
+let port = document.createElement('p');
+port.innerHTML = 'Portfolio';
+port.id = 'portfolio_text';
+port.classList.add('home_page_text');
+
+let fullName = document.createElement('p');
+fullName.innerHTML = 'Calvin Hunter';
+fullName.id = 'full_name';
+fullName.classList.add('home_page_text');
+
+let homeList = [port, fullName];
+addList(homePage, homeList);
+
+
+
 //PROJECTS
 
 //SOUPER HERO

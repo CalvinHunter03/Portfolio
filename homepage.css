@@ -8,6 +8,16 @@
     src: url(/Fonts/KarmaFuture.ttf);
 }
 
+@font-face {
+    font-family: bankPrinter;
+    src: url(/Fonts/F25_Bank_Printer.ttf);
+}
+
+@font-face {
+    font-family: caviarDreams;
+    src: url(/Fonts/CaviarDreams.ttf);
+}
+
 body {
     background-color: #ffffff;
 }
@@ -180,3 +190,20 @@ button{
     padding-bottom: 15px;
 }
 
+#home{
+    border: 1.2px black solid;
+}
+
+.home_page_text{
+    text-align: center;
+
+}
+
+#portfolio_text{
+
+    font-family: bankPrinter;
+}
+
+#full_name{
+    font-family: caviarDreams;
+}
