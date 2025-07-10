@@ -18,6 +18,11 @@
     src: url(/Fonts/CaviarDreams.ttf);
 }
 
+@font-face {
+    font-family: vogue;
+    src: url(/Fonts/Vogue.ttf);
+}
+
 body {
     background-color: #ffffff;
 }
@@ -38,7 +43,7 @@ body {
 
 .second_grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     column-gap: 20px;
     row-gap: 30px;
 
@@ -73,8 +78,9 @@ body {
 
     padding-top:50px;
     padding-bottom: 50px;
-
     
+
+
 
     
 }
@@ -82,6 +88,10 @@ body {
 button{
     display: block;
     margin: 0 auto;
+    
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
 }
 
 .left_sidebar_button{
@@ -91,10 +101,13 @@ button{
     font-family: goldenAge;
     font-size: 200%;
 
-    /*
+    
     border: none;
     background-color: #ffffff;
-    */
+    
+    border-radius: 0.2em;
+    
+    
     margin-top: 25%;
     margin-bottom: 25%;
 }
@@ -102,16 +115,17 @@ button{
 #games_heading{
     font-size: 3rem;
     text-align: center;
-    color: white;
+    color: black;
+    font-family: vogue;
 
 }
 
 #games{
     border-style:solid;
-    border-color: #172030;
-    border-width: 3px;
+    border-color: #6a80a794;
+    border-width: 1.2px;
 
-    background-color: #AD330A;
+    background-color: #ffffff;
 
     /*
 
@@ -125,6 +139,8 @@ button{
     
     */
     padding-bottom: 15px;
+
+    
 }
 
 
@@ -143,8 +159,8 @@ button{
 }
 
 .games_titles{
-    text-align: center;
     color: #F9DD80;
+    padding-left: 50px;
 }
 
 #mind_sync{
@@ -157,13 +173,13 @@ button{
 
 
 .game_vid{
-    margin: auto;
-
-    width: 80%;
+    
+    margin-left: auto;
+    width: 50%;
     aspect-ratio: 16 / 9;
     height: auto;
     display: block;
-    border: black solid 3px;
+    border: black solid 2px;
 }
 
 .third_grid{
@@ -191,7 +207,7 @@ button{
 }
 
 #home{
-    border: 1.2px black solid;
+    border: 1.2px #6a80a794 solid;
 }
 
 .home_page_text{

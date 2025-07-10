@@ -11,6 +11,9 @@ function addList(appender, theList){
     }
 }
 
+
+
+
 // LEFT SIDE BAR
 let leftSideBar = document.getElementById("left_side_bar");
 
@@ -64,8 +67,8 @@ contactP.classList.add('intro_text');
 
 let buttonList = [homeButton, gamesButton, projectButton, aboutMeButton];
 
-addList(leftSideBar, buttonList);
 
+addList(leftSideBar, buttonList);
 
 //HOME PAGE
 let homePage = document.getElementById('home');
@@ -86,7 +89,17 @@ addList(homePage, homeList);
 homeButton.addEventListener('click', ()=> {
     disableAllDiv(divList);
     homeDiv.hidden=false;
+    
 });
+
+homeButton.addEventListener('mouseover', ()=> {
+    homeButton.style.outline = '#5889e2 1.2px solid';
+
+});
+
+homeButton.addEventListener('mouseout', ()=> {
+    homeButton.style.outline = 'none';
+}) 
 
 
 //GAMES
@@ -94,6 +107,15 @@ homeButton.addEventListener('click', ()=> {
 gamesButton.addEventListener('click', ()=> {
     disableAllDiv(divList);
     gamesDiv.hidden=false;
+    
+})
+
+gamesButton.addEventListener('mouseover', ()=> {
+    gamesButton.style.outline = '#5889e2 1.2px solid';
+})
+
+gamesButton.addEventListener('mouseout', ()=> {
+    gamesButton.style.outline = 'none';
 })
 
 //SOUPER HERO
