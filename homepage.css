@@ -200,10 +200,11 @@ button{
 }
 
 #portfolio_text{
-
+    padding-top: 15%;
     font-family: bankPrinter;
 }
 
 #full_name{
     font-family: caviarDreams;
+    font-size: 20px;
 }

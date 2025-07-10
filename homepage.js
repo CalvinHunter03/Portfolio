@@ -1,5 +1,8 @@
-
-let games = document.getElementById("games");
+function disableAllDiv(listOfDivs){
+    for(let div of listOfDivs){
+        div.hidden = true;
+    }
+}
 
 function addList(appender, theList){
 
@@ -30,6 +33,16 @@ let aboutMeButton = document.createElement("button");
 aboutMeButton.type = 'button';
 aboutMeButton.innerHTML = "About Me";
 aboutMeButton.classList.add('left_sidebar_button');
+
+let homeDiv = document.getElementById('home');
+let gamesDiv = document.getElementById('games');
+let projectsDiv = document.getElementById('projects');
+let aboutMeDiv = document.getElementById('about_me');
+
+let divList = [homeDiv, gamesDiv, projectsDiv, aboutMeDiv];
+
+
+
 /*
 let introTitle = document.createElement("h1");
 introTitle.innerHTML = "<u>About Me</u>";
@@ -49,7 +62,9 @@ contactP.innerHTML = 'Feel free to contact me, I will respond as soon as possibl
 contactP.classList.add('intro_text');
 */
 
-addList(leftSideBar, [homeButton, gamesButton, projectButton, aboutMeButton]);
+let buttonList = [homeButton, gamesButton, projectButton, aboutMeButton];
+
+addList(leftSideBar, buttonList);
 
 
 //HOME PAGE
@@ -68,9 +83,18 @@ fullName.classList.add('home_page_text');
 let homeList = [port, fullName];
 addList(homePage, homeList);
 
+homeButton.addEventListener('click', ()=> {
+    disableAllDiv(divList);
+    homeDiv.hidden=false;
+});
 
 
-//PROJECTS
+//GAMES
+
+gamesButton.addEventListener('click', ()=> {
+    disableAllDiv(divList);
+    gamesDiv.hidden=false;
+})
 
 //SOUPER HERO
 let souperHero = document.getElementById("souper_hero");
@@ -211,4 +235,9 @@ addList(statGrid, [statBulletDiv, statDescDiv]);
 let statList = [statTitle, statTrailer, statTrailerBr, statGrid];
 addList(stationary, statList);
 
+//PROJECTS 
 
+projectsButton.addEventListener('click', ()=> {
+    disableAllDiv(divList);
+    projectsDiv.hidden = false;
+})
