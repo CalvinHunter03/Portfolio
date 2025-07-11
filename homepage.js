@@ -126,6 +126,7 @@ souperTitle.id = "souper_title";
 souperTitle.innerHTML = "<u>Souper Hero</u>";
 souperTitle.classList.add('games_titles');
 
+
 let souperTrailer = document.createElement("iframe");
 souperTrailer.src = 'https://www.youtube.com/embed/eS0_EcyCiJI';
 souperTrailer.classList.add('game_vid');
@@ -134,6 +135,7 @@ let souperTrailerBr = document.createElement('br');
 let souperBulletDiv = document.createElement('div');
 souperBulletDiv.classList.add('bullet_div');
 
+let souperVidDiv = document.createElement('div');
 
 let souperDescDiv = document.createElement('div');
 souperDescDiv.classList.add('description_div');
@@ -157,12 +159,14 @@ let souperDescThree = document.createElement("li");
 souperDescThree.innerHTML = "Fixing combat bugs";
 souperDescThree.classList.add('game_desc');
 
+addList(souperVidDiv, [souperTrailer])
+
 addList(souperBulletDiv, [souperDescOne, souperDescTwo, souperDescThree]);
 addList(souperDescDiv, [souperDescReal]);
 
-addList(souperGrid, [souperBulletDiv, souperDescDiv]);
+addList(souperGrid, [souperBulletDiv,souperVidDiv, souperDescDiv]);
 
-let souperList = [souperTitle, souperTrailer, souperTrailerBr, souperGrid];
+let souperList = [souperTitle, souperGrid];
 
 addList(souperHero, souperList);
 
