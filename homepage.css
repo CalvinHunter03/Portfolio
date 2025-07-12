@@ -54,7 +54,9 @@ body {
 .second_grid > div {
     padding-bottom: 15px;
 
-    background-color: #88240a;
+    background-color: #ffffff;
+
+    border: #000000 2px solid;
 }
 
 #left_side_bar{
@@ -145,6 +147,8 @@ button{
 
 
 
+
+
 #souper_hero{
     
 
@@ -152,7 +156,7 @@ button{
 }
 
 .game_desc{
-    color: #e5e0d0;
+    color: #000000;
     list-style-type:square;
     margin-left: 10px;
     padding-top: 10px;
@@ -204,7 +208,7 @@ button{
 }
 
 .real_desc{
-    color: #e5e0d0;
+    color: #000000;
     padding-left: 5px;
     padding-right: 5px;
 

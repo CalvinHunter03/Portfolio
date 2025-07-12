@@ -126,11 +126,9 @@ souperTitle.id = "souper_title";
 souperTitle.innerHTML = "<u>Souper Hero</u>";
 souperTitle.classList.add('games_titles');
 
-
 let souperTrailer = document.createElement("iframe");
 souperTrailer.src = 'https://www.youtube.com/embed/eS0_EcyCiJI';
 souperTrailer.classList.add('game_vid');
-let souperTrailerBr = document.createElement('br');
 
 let souperBulletDiv = document.createElement('div');
 souperBulletDiv.classList.add('bullet_div');
