@@ -93,7 +93,7 @@ homeButton.addEventListener('click', ()=> {
 });
 
 homeButton.addEventListener('mouseover', ()=> {
-    homeButton.style.outline = '#5889e2 1.2px solid';
+    homeButton.style.outline = '#000000 1.5px solid';
 
 });
 
@@ -111,7 +111,7 @@ gamesButton.addEventListener('click', ()=> {
 })
 
 gamesButton.addEventListener('mouseover', ()=> {
-    gamesButton.style.outline = '#5889e2 1.2px solid';
+    gamesButton.style.outline = '#000000 1.5px solid';
 })
 
 gamesButton.addEventListener('mouseout', ()=> {
@@ -263,7 +263,32 @@ addList(stationary, statList);
 
 //PROJECTS 
 
-projectsButton.addEventListener('click', ()=> {
+projectButton.addEventListener('click', ()=> {
     disableAllDiv(divList);
     projectsDiv.hidden = false;
 })
+
+projectButton.addEventListener('mouseover', ()=> {
+    projectButton.style.outline = '#000000 1.5px solid';
+
+});
+
+projectButton.addEventListener('mouseout', ()=> {
+    projectButton.style.outline = 'none';
+});
+
+// ABOUT ME
+
+aboutMeButton.addEventListener('click', ()=> {
+    disableAllDiv(divList);
+    aboutMeButton.hidden = false;
+})
+
+aboutMeButton.addEventListener('mouseover', ()=> {
+    aboutMeButton.style.outline = '#000000 1.5px solid';
+
+});
+
+aboutMeButton.addEventListener('mouseout', ()=> {
+    aboutMeButton.style.outline = 'none';
+});
