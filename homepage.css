@@ -23,6 +23,11 @@
     src: url(/Fonts/Vogue.ttf);
 }
 
+@font-face {
+    font-family: gaban;
+    src: url(/Fonts/gaban-outline-regular-FFP.ttf);
+}
+
 body {
     background-color: #ffffff;
 }
@@ -54,9 +59,10 @@ body {
 .second_grid > div {
     padding-bottom: 15px;
 
-    background-color: #ffffff;
+    background-color: #f2f2f2;
 
-    border: #000000 2px solid;
+
+    
 }
 
 #left_side_bar{
@@ -80,6 +86,7 @@ body {
 
     padding-top:50px;
     padding-bottom: 50px;
+    max-height: fit-content;
     
 
 
@@ -117,7 +124,7 @@ button{
 #games_heading{
     font-size: 3rem;
     text-align: center;
-    color: black;
+    color: #000000;
     font-family: vogue;
 
 }
@@ -141,6 +148,8 @@ button{
     
     */
     padding-bottom: 15px;
+    height: 80vh;
+    overflow: scroll;
 
     
 }
@@ -163,8 +172,10 @@ button{
 }
 
 .games_titles{
-    color: #F9DD80;
-    padding-left: 50px;
+    color: #171717;
+    padding-left: 15px;
+    text-align: center;
+    font-family: gaban;
 }
 
 #mind_sync{
@@ -183,28 +194,30 @@ button{
     aspect-ratio: 16 / 9;
     height: auto;
     display: block;
-    border: black solid 1px;
+    border: black solid 2px;
+    border-radius: 3px;
+
+    
 }
 
 .third_grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.2fr;
     
 
     
     column-gap: 20px;
     row-gap: 20px;
 
-    padding-left: 15px;
-    padding-right: 15px;
+   padding-right: 15px;
+   padding-left: 15px;
+   padding-top: 15px;
 
     
 
 }
 
 .third_grid > div{
-
-    border: black 2px solid;
 }
 
 .real_desc{
@@ -215,7 +228,7 @@ button{
 }
 
 .bullet_div{
-    padding-bottom: 15px;
+    
 
     grid-row: 1 / span 2;
 }

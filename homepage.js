@@ -123,7 +123,7 @@ let souperHero = document.getElementById("souper_hero");
 
 let souperTitle = document.createElement("h1");
 souperTitle.id = "souper_title";
-souperTitle.innerHTML = "<u>Souper Hero</u>";
+souperTitle.innerHTML = "Souper Hero";
 souperTitle.classList.add('games_titles');
 
 let souperTrailer = document.createElement("iframe");
@@ -146,25 +146,25 @@ souperDescReal.innerHTML = "Souper Hero is a dungeon crawler roguelike fueled by
 souperDescReal.classList.add('real_desc');
 
 let souperDescOne = document.createElement("li");
-souperDescOne.innerHTML = "Level Design";
+souperDescOne.innerHTML = "I created a dynamic minimap, only revealing areas the player has explored. ";
 souperDescOne.classList.add('game_desc');
 
 let souperDescTwo = document.createElement("li");
-souperDescTwo.innerHTML = "Combat functionality";
+souperDescTwo.innerHTML = "I created different map templates for the game to choose from when randomly generating the map.";
 souperDescTwo.classList.add('game_desc');
 
 let souperDescThree = document.createElement("li");
-souperDescThree.innerHTML = "Fixing combat bugs";
+souperDescThree.innerHTML = "I created the throwing objects mechanic in the game, where the player can pick up and item and throw it or place it down. ";
 souperDescThree.classList.add('game_desc');
 
 addList(souperVidDiv, [souperTrailer])
 
-addList(souperBulletDiv, [souperDescOne, souperDescTwo, souperDescThree]);
+addList(souperBulletDiv, [souperTitle, souperDescOne, souperDescTwo, souperDescThree]);
 addList(souperDescDiv, [souperDescReal]);
 
 addList(souperGrid, [souperBulletDiv,souperVidDiv, souperDescDiv]);
 
-let souperList = [souperTitle, souperGrid];
+let souperList = [souperGrid];
 
 addList(souperHero, souperList);
 
@@ -172,7 +172,7 @@ addList(souperHero, souperList);
 let mindSync = document.getElementById("mind_sync");
 
 let mindTitle = document.createElement("h1");
-mindTitle.innerHTML = "<u>Mind Sync</u>";
+mindTitle.innerHTML = "Mind Sync";
 mindTitle.classList.add('games_titles');
 
 let mindTrailer = document.createElement("iframe");
@@ -218,7 +218,7 @@ addList(mindSync, mindList);
 let stationary = document.getElementById("stationary");
 
 let statTitle = document.createElement("h1");
-statTitle.innerHTML = "<u>Stationary</u>";
+statTitle.innerHTML = "Stationary";
 statTitle.classList.add('games_titles');
 
 let statTrailer = document.createElement('iframe');
