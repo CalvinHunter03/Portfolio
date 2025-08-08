@@ -1,31 +1,31 @@
 @font-face {
     font-family: goldenAge;
-    src: url(/Fonts/GoldenAgeShad.ttf);
+    src: url(./Fonts/GoldenAgeShad.ttf);
 }
 
 @font-face {
     font-family: karmaFuture;
-    src: url(/Fonts/KarmaFuture.ttf);
+    src: url(./Fonts/KarmaFuture.ttf);
 }
 
 @font-face {
     font-family: bankPrinter;
-    src: url(/Fonts/F25_Bank_Printer.ttf);
+    src: url(./Fonts/F25_Bank_Printer.ttf);
 }
 
 @font-face {
     font-family: caviarDreams;
-    src: url(/Fonts/CaviarDreams.ttf);
+    src: url(./Fonts/CaviarDreams.ttf);
 }
 
 @font-face {
     font-family: vogue;
-    src: url(/Fonts/Vogue.ttf);
+    src: url(./Fonts/Vogue.ttf);
 }
 
 @font-face {
     font-family: gaban;
-    src: url(/Fonts/gaban-outline-regular-FFP.ttf);
+    src: url(./Fonts/gaban-outline-regular-FFP.ttf);
 }
 
 body {
