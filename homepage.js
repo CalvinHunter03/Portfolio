@@ -44,6 +44,10 @@ let aboutMeDiv = document.getElementById('about_me');
 
 let divList = [homeDiv, gamesDiv, projectsDiv, aboutMeDiv];
 
+// real left side bar
+
+let realLeftSidebar = document.getElementById("real-left-sidebar");
+
 
 
 /*
@@ -68,7 +72,7 @@ contactP.classList.add('intro_text');
 let buttonList = [homeButton, gamesButton, projectButton, aboutMeButton];
 
 
-addList(leftSideBar, buttonList);
+addList(realLeftSidebar, buttonList);
 
 //HOME PAGE
 let homePage = document.getElementById('home');

@@ -91,7 +91,14 @@ body {
 
 
 
+
     
+}
+
+#real-left-sidebar{
+    background-color: black;
+
+    position: sticky;
 }
 
 button{
@@ -148,8 +155,7 @@ button{
     
     */
     padding-bottom: 15px;
-    height: 80vh;
-    overflow: scroll;
+   
 
     
 }
