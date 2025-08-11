@@ -1,4 +1,56 @@
 .menu-bar{
     display: flex;
+    justify-content: space-around;
+
+    background-color: grey;
+
+    
+    padding: 10px 10px 10px 10px;
+    
+
+}
+
+.menu-button
+{
+    
+    padding: 10px 10px 10px 10px;
+
+    font-size: 150%;
+}
+
+[hidden]{
+    display: none !important;
+}
+
+#games-page{
+    display: flex;
     justify-content: center;
+    row-gap: 10px;
+    column-gap: 2em;
+    flex-wrap:wrap;
+    
+}
+
+.game{
+    height: 200px;
+    padding: 10px;
+}
+
+#souper-hero{
+    background-color: orange;
+}
+
+#mind-sync{
+    background-color: yellow;
+}
+
+#stationary {
+    background-color: green;
+}
+
+#home-page{
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
 }

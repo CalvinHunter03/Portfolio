@@ -32,35 +32,25 @@ let photography = document.getElementById('photography-website');
 // BUTTON FUNTIONALITY
 
 homeButton.addEventListener('click', ()=> {
-    console.log('home button pressed');
     turnOffAll();
     homePage.hidden=false;
 
 });
 
 gamesButton.addEventListener('click', ()=> {
-    console.log('games button pressed');
     turnOffAll();
     gamesPage.hidden=false;
 });
 
 projectsButton.addEventListener('click', ()=> {
-    console.log('projects button pressed');
     turnOffAll();
     projectsPage.hidden=false;
 })
 
 aboutmeButton.addEventListener('click', ()=> {
-    console.log('aboutme button pressed');
     turnOffAll();
     aboutmePage.hidden=false;
 })
-
-
-function start(){
-    turnOffAll();
-    homePage.hidden=false;
-}
 
 function turnOffAll(){
     homePage.hidden=true;
@@ -71,4 +61,14 @@ function turnOffAll(){
 
 
 //Should be played at start
-start();
+let urlParams = new URLSearchParams(window.location.search);
+if(urlParams.has('games-page')){
+    turnOffAll();
+    gamesPage.hidden=false;
+}
+
+let navType = PerformanceNavigationTiming.type;
+
+if(navType = 'reload'){
+    window.history.replaceState(null, document.title, "/index.html");
+}
