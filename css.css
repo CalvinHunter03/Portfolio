@@ -1,3 +1,13 @@
+@font-face {
+    font-family: caviarDreams;
+    src: url(./Fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: bankPrinter;
+    src: url(./Fonts/F25_Bank_Printer.ttf);
+}
+
 .menu-bar{
     display: flex;
     justify-content: space-around;
@@ -22,18 +32,50 @@
     display: none !important;
 }
 
+.information{
+    display:flex;
+    justify-content: center;
+    
+}
+
+#home-page{
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    border: 2px solid black;
+    width: 1500px;
+    
+}
+
+
+
+
+#portfolio-text{
+    font-size: 2em;
+    font-family: bankPrinter;
+}
+
+#name {
+    font-size: 3em;
+    font-family: caviarDreams;
+}
+
 #games-page{
     display: flex;
     justify-content: center;
     row-gap: 10px;
     column-gap: 2em;
     flex-wrap:wrap;
+    width: 1500px;
     
 }
 
 .game{
     height: 200px;
     padding: 10px;
+
+    max-width: 1550px;
 }
 
 #souper-hero{
@@ -46,11 +88,4 @@
 
 #stationary {
     border: 3px solid black;
-}
-
-#home-page{
-    display: flex;
-    align-items: center;
-
-    flex-direction: column;
 }
