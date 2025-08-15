@@ -65,6 +65,12 @@ let urlParams = new URLSearchParams(window.location.search);
 if(urlParams.has('games-page')){
     turnOffAll();
     gamesPage.hidden=false;
+} else if(urlParams.has('projects-page')){
+    turnOffAll();
+    projectsPage.hidden=false;
+} else if(urlParams.has('aboutme-page')){
+    turnOffAll();
+    aboutmePage.hidden=false;
 }
 
 let navType = PerformanceNavigationTiming.type;
