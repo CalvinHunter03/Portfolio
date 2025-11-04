@@ -1,0 +1,25 @@
+.top-bar{
+    display: flex;
+}
+
+.top-bar div {
+    border: black 1px solid;
+}
+
+#title{
+    flex-grow: 1;
+    font-size: 3vw;
+    flex-basis: 1500px;
+}
+
+#right-of-title{
+    flex-grow: 1;
+}
+
+#about-me-title{
+    font-size: 2vw;
+}
+
+#table-of-contents{
+    font-size: 1.2vw; 
+}
