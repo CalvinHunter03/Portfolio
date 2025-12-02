@@ -135,3 +135,13 @@ footer div {
     margin: 6px 0;
     font-size: 16px;
 }
+
+.footer-link{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-link:hover{
+    text-decoration:underline;
+}
