@@ -144,7 +144,6 @@ footer div {
     font-size: 16px;
 }
 
-<<<<<<< Updated upstream
 .footer-link{
     color: #ffffff;
     text-decoration: none;
@@ -154,7 +153,6 @@ footer div {
 .footer-link:hover{
     text-decoration:underline;
 }
-=======
 
 #face{
     border-radius: 8px;
@@ -165,4 +163,3 @@ footer div {
 #face-desc-container{
     display:flex;
 }
->>>>>>> Stashed changes
