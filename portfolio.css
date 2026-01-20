@@ -3,6 +3,21 @@
     src: url(./Fonts/lucidaconsole.ttf);
 }
 
+@font-face {
+    font-family: caviarDreams;
+    src: url(./Fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: chineseRocks;
+    src: url(./Fonts/chinese_rocks_rg.otf);
+}
+
+@font-face {
+    font-family: cocoGoose;
+    src: url(./Fonts/Cocogoose-Pro-Regular-trial.ttf);
+}
+
 
 /* Base styles */
 body {
@@ -26,14 +41,20 @@ body {
 }
 
 #title {
-    font-size: 28px;
+    font-size: 45px;
     font-weight: bold;
+    font-family: cocoGoose;
+    margin-top: 24px;
 }
 
 #right-of-title {
     display: flex;
     gap: 40px;
 } 
+
+.nav-text{
+    font-family: cocoGoose;
+}
 
 /* About me */
 #about-me-section {
@@ -47,7 +68,7 @@ body {
 #about-me-title {
     font-size: 80px;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 
     color: rgb(233, 188, 52);
     text-shadow: 5px 5px 0 black;
@@ -63,8 +84,8 @@ body {
     font-size: 30px;
     line-height: 1.4;
     font-family: lucidaConsole;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
 
@@ -91,8 +112,13 @@ body {
 /* Section titles */
 .body-title {
     text-align: center;
-    font-size: 28px;
+    font-size: 60px;
     margin: 10px 0;
+    text-shadow: 2px 2px 0 rgb(0, 0, 0),
+                  3px 3px 0 black;
+    color: rgb(235, 86, 116);
+
+    font-family: BigCalson;
 }
 
 /* Box styles */
@@ -110,9 +136,12 @@ body {
 
 /* Game section */
 .game-title {
-    font-size: 22px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 8px;
+
+    font-family: skia;
+    
 }
 
 .game-trailer {
@@ -126,7 +155,8 @@ body {
 }
 
 .game-desc {
-    font-size: 14px;
+    font-size: 30px;
+    font-family: caviarDreams;
 }
 
 /* Other Projects */
@@ -138,6 +168,13 @@ body {
 
 .op-desc {
     font-size: 14px;
+}
+
+.learn-more-button{
+    font-family: chineseRocks;
+    font-size: 25px;
+    display:flex;
+    flex-direction:row-reverse;
 }
 
 /* Footer */
@@ -193,5 +230,17 @@ footer div {
 
   .top-bar{
     width: 92%;
+  }
+
+  #about-me-desc{
+    font-size: 20px;
+  }
+
+  .game-desc{
+    font-size: 25px;
+  }
+
+  .learn-more-button{
+    font-size: 20px;
   }
 }

@@ -1,3 +1,18 @@
+@font-face {
+    font-family: caviarDreams;
+    src: url(./Fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: chineseRocks;
+    src: url(./Fonts/chinese_rocks_rg.otf);
+}
+
+@font-face {
+    font-family: cocoGoose;
+    src: url(./Fonts/Cocogoose-Pro-Regular-trial.ttf);
+}
+
 /* Base styles */
 body {
 margin: 0;
@@ -23,8 +38,10 @@ box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 
 
 #title {
-font-size: 28px;
-font-weight: bold;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: cocoGoose;
+    
 }
 
 
@@ -40,16 +57,19 @@ padding: 20px;
 
 
 .section-title {
-font-size: 30px;
-font-weight: bold;
+font-size: 40px;
+font-weight:normal;
 margin-bottom: 10px;
 text-align: center;
+font-family: skia;
 }
 
 
 p {
-font-size: 15px;
+font-size: 20px;
 line-height: 1.5;
+font-family: caviarDreams;
+
 }
 
 
@@ -68,23 +88,37 @@ margin: 15px 0;
 display: block;
 text-align: center;
 margin: 30px 0;
-font-size: 16px;
+font-size: 25px;
 text-decoration: none;
 color: #1e1e1e;
+
+font-family: chineseRocks;
+}
+
+#top-back-link{
+    font-family: chineseRocks;
+    font-size: 20px;
+    text-decoration: none;
+    color: #1e1e1e;
 }
 
 .play-game {
 display: block;
 text-align: center;
-margin: 30px 0;
+margin: 10px 0;
 font-size: 25px;
-color: #1e1e1e;
+color: #002aff;
+
+font-family: chineseRocks;
 
 }
 
-
 .back-link:hover {
-text-decoration: underline;
+    text-decoration: underline;
+}
+
+#top-back-link:hover{
+    text-decoration: underline;
 }
 
 
@@ -118,4 +152,20 @@ font-size: 16px;
 
 .footer-link:hover{
     text-decoration:underline;
+}
+
+
+@media screen and (max-width: 600px) {
+  p{
+    font-size: 15px;
+  }
+
+  .section-title{
+    font-size: 30px;
+  }
+
+  #title{
+    margin: auto;
+  }
+  
 }
