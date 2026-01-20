@@ -244,4 +244,8 @@ footer div {
   .learn-more-button{
     font-size: 20px;
   }
+
+  #face{
+    width: 100% !important;
+  }
 }
