@@ -212,7 +212,7 @@ footer div {
     max-width: 300px;
     min-width: 300px;
     height: auto;
-    
+    border: solid 2px black;
 }
 
 #face-container{
@@ -226,6 +226,7 @@ footer div {
 @media screen and (max-width: 600px) {
   #face-desc-container {
     flex-direction:column;
+    
   }
 
   .top-bar{
