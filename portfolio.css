@@ -240,6 +240,7 @@ footer div {
     min-width: 300px;
     height: auto;
     border: solid 2px black;
+    object-fit: contain;
 }
 
 #face-container{
