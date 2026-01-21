@@ -259,6 +259,8 @@ footer div {
     #face-desc-container{
         flex-direction: column;
         max-width: 80%;
+        justify-content: center;
+        align-items: center;
     }
 
     #about-me-section{
@@ -272,6 +274,7 @@ footer div {
     flex-direction:column;
     max-width: 80%;
     justify-content: center;
+    align-items: center;
     
   }
 
