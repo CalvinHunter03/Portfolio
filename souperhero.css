@@ -1,0 +1,177 @@
+@font-face {
+    font-family: caviarDreams;
+    src: url(./Fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family: chineseRocks;
+    src: url(./Fonts/chinese_rocks_rg.otf);
+}
+
+@font-face {
+    font-family: cocoGoose;
+    src: url(./Fonts/Cocogoose-Pro-Regular-trial.ttf);
+}
+
+/* Base styles */
+body {
+
+font-family: Arial, sans-serif;
+background-color: #f7f7f7;
+color: #222;
+}
+
+
+
+/* Top header bar */
+.top-bar {
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #1e1e1e;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    height: 150px;
+}
+
+
+#title {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: cocoGoose;
+    padding-left: 30px;
+}
+
+
+/* Content box */
+.body-box {
+background-color: white;
+width: 80%;
+margin: 30px auto;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+padding: 20px;
+}
+
+
+.section-title {
+font-size: 40px;
+font-weight:normal;
+margin-bottom: 10px;
+text-align: center;
+font-family: skia;
+}
+
+
+p {
+font-size: 20px;
+line-height: 1.5;
+font-family: caviarDreams;
+
+}
+
+
+/* Placeholder media box */
+.media-box {
+width: 100%;
+background-color: #ddd;
+aspect-ratio: 16/9;
+border-radius: 10px;
+margin: 15px 0;
+}
+
+
+/* Back link */
+.back-link {
+display: block;
+text-align: center;
+margin: 30px 0;
+font-size: 25px;
+text-decoration: none;
+color: #1e1e1e;
+
+font-family: chineseRocks;
+}
+
+#top-back-link{
+    font-family: chineseRocks;
+    font-size: 20px;
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+.play-game {
+display: block;
+text-align: center;
+margin: 10px 0;
+font-size: 25px;
+color: #002aff;
+
+font-family: chineseRocks;
+
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+#top-back-link:hover{
+    text-decoration: underline;
+}
+
+
+/* Footer */
+footer {
+width: 100%;
+background-color: #1e1e1e;
+color: white;
+padding: 30px 0;
+
+text-align: center;
+
+display:flex;
+flex-direction: column;
+
+
+}
+
+
+#contact-title {
+margin-bottom: 15px;
+font-size: 26px;
+}
+
+
+
+
+.footer-link{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-link:hover{
+    text-decoration:underline;
+}
+
+
+@media screen and (max-width: 600px) {
+  p{
+    font-size: 15px;
+  }
+
+  .section-title{
+    font-size: 30px;
+  }
+
+  
+
+  .top-bar{
+    justify-content: center;
+    width: 91%;
+  }
+  
+}
