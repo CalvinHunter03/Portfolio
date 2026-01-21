@@ -25,15 +25,16 @@ color: #222;
 
 /* Top header bar */
 .top-bar {
-padding-right: 40px;
-width: 97.5%;
-display: flex;
-justify-content: space-between;
-align-items: flex-start;
-padding: 20px;
-background-color: #1e1e1e;
-color: white;
-box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #1e1e1e;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    height: 150px;
 }
 
 
@@ -41,7 +42,7 @@ box-shadow: 0 4px 6px rgba(0,0,0,0.2);
     font-size: 45px;
     font-weight: bold;
     font-family: cocoGoose;
-    
+    padding-left: 30px;
 }
 
 
