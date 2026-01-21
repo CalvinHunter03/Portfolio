@@ -245,9 +245,8 @@ footer div {
 #face-container{
     aspect-ratio: 16/9;
     display:flex;
-    justify-content: center;
-    align-items: center;
     
+    text-align: center;
 }
 
 #face-desc-container{
