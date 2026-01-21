@@ -237,7 +237,7 @@ footer div {
 #face{
     border-radius: 8px;
     max-width: 300px;
-    min-width: 300px;
+    
     height: auto;
     border: solid 2px black;
     object-fit: contain;
