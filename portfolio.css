@@ -244,6 +244,8 @@ footer div {
 
 #face-container{
     aspect-ratio: 16/9;
+    display:flex;
+    justify-content: center;
 }
 
 #face-desc-container{
@@ -280,7 +282,5 @@ footer div {
     font-size: 20px;
   }
 
-  #face{
-    width: 100% !important;
-  }
+  
 }
