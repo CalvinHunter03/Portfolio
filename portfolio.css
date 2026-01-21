@@ -111,8 +111,8 @@ body {
     font-size: 30px;
     line-height: 1.4;
     font-family: lucidaConsole;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
@@ -252,7 +252,7 @@ footer {
     display:flex;
 
     background-color: rgb(215, 128, 128);
-    
+    align-items: center;
 }
 
 @media screen and (max-width: 950px){
@@ -265,7 +265,7 @@ footer {
 
     #about-me-section{
         max-width: 90%;
-        justify-items: center;
+        align-items: center;
     }
 
     #about-me-container{
