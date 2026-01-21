@@ -220,10 +220,7 @@ footer {
     font-size: 26px;
 }
 
-footer div {
-    margin: 6px 0;
-    font-size: 16px;
-}
+
 
 .footer-link{
     color: #ffffff;
@@ -262,9 +259,6 @@ footer div {
     #face-desc-container{
         flex-direction: column;
         max-width: 80%;
-        justify-content: center;
-        justify-items: center;
-        align-content: center;
         align-items: center;
         
     }
@@ -276,7 +270,8 @@ footer div {
 
     #about-me-container{
         align-items: center;
-        align-content: center;
+
+        
         
     }
 }
@@ -285,14 +280,13 @@ footer div {
   #face-desc-container {
     flex-direction:column;
     max-width: 80%;
-    justify-content: center;
     align-items: center;
     
   }
 
   #face-container{
     text-align: center;
-    justify-items: center;
+    align-items: center;
     
   }
 
