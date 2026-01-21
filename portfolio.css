@@ -97,7 +97,7 @@ body {
     margin-bottom: 15px;
 
     color: rgb(233, 188, 52);
-    text-shadow: 5px 5px 0 black;
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.9);
                 
                
 
@@ -138,8 +138,8 @@ body {
     text-align: center;
     font-size: 60px;
     
-    text-shadow: 2px 2px 0 rgb(0, 0, 0),
-                  3px 3px 0 black;
+    text-shadow: 2px 2px 0 rgb(0, 0, 0, 0.9),
+                  3px 3px 0 rgb(0,0,0,0.9);
     color: rgb(235, 86, 116);
 
     font-family: BigCalson;
@@ -240,11 +240,12 @@ footer div {
     
     height: auto;
     border: solid 2px black;
-    object-fit: contain;
+    object-fit: cover;
+    aspect-ratio: 9/16;
 }
 
 #face-container{
-    aspect-ratio: 16/9;
+    
     
     
 }
